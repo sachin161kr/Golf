@@ -84,19 +84,19 @@ gsap.from("#about-us img,#about-us-in", {
   },
 });
 
-gsap.from(".card", {
-  scale: 0.8,
-  opacity: 0,
-  duration: 1,
-  stagger: 0.1,
-  scrollTrigger: {
-    trigger: ".card",
-    scroller: "body",
-    scrub: 1,
-    start: "top 70%",
-    end: "top 65%",
-  },
-});
+// gsap.from(".card", {
+//   scale: 0.8,
+//   opacity: 0,
+//   duration: 1,
+//   stagger: 0.1,
+//   scrollTrigger: {
+//     trigger: ".card",
+//     scroller: "body",
+//     scrub: 1,
+//     start: "top 70%",
+//     end: "top 65%",
+//   },
+// });
 
 gsap.from("#colon-1", {
   y: -70,
